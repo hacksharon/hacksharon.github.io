@@ -62,7 +62,7 @@ h3 {
 .glow-on-hover:before {
     content: "";
     background: linear-gradient(
-        30deg,
+        90deg,
         #ff0000,
         #ff7300,
         #fffb00,
@@ -85,14 +85,6 @@ h3 {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     border-radius: inherit;
-}
-
-.glow-on-hover:active {
-    color: #000;
-}
-
-.glow-on-hover:active:after {
-    background: transparent;
 }
 
 .glow-on-hover:hover:before {
