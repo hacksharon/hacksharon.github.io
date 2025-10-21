@@ -39,18 +39,23 @@ h2 {
 }
 
 h3 {
-    font-size: 20%;
-    line-height: inherit;
+    font-size: 30%;
+    margin-top: 1em;
 }
 
-h4 {
-    font-size: 60%;
-    text-align: center;
+h6 {
+    font-size: 20%;
+    line-height: inherit;
 }
 
 p {
     /* font-family: "Bitter", serif; */
     font-size: 25%;
+    margin: 0.4em 0;
+}
+
+section {
+    margin: 0.4em 0;
 }
 
 main {
@@ -140,6 +145,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+    main {
+        max-width: 80%;
+    }
+
     header h1 {
         font-size: 11vw;
     }
@@ -148,7 +157,7 @@ footer {
         font-size: 7vw;
     }
 
-    footer h3 {
+    footer h6 {
         font-size: 3vw;
     }
 
