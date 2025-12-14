@@ -1,0 +1,38 @@
+.scroll-down {
+    position: absolute;
+    bottom: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50%;
+    animation: 1.5s ease forwards, bounce 2s infinite 3s;
+    cursor: pointer;
+}
+
+/* Optional bounce animation */
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(10px);
+    }
+    60% {
+        transform: translateY(6px);
+    }
+}
+
+@media (max-width: 768px) {
+    .scroll-down {
+        position: absolute;
+        bottom: 10vh;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 80%;
+        animation: 1.5s ease forwards, bounce 2s infinite 3s;
+        cursor: pointer;
+    }
+}

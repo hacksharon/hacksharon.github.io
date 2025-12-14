@@ -14,7 +14,7 @@ header {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    margin-left: 14vw;
+    margin: 0 14vw;
 }
 
 h1,
