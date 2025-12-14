@@ -5,7 +5,6 @@
     transform: translateX(-50%);
     font-size: 50%;
     animation: 1.5s ease forwards, bounce 2s infinite 3s;
-    cursor: pointer;
 }
 
 /* Optional bounce animation */
