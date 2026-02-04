@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>HackSharon - We've Moved</title>
+        <meta
+            http-equiv="refresh"
+            content="5;url=https://hacksharon.vercel.app/"
+        />
+        <style>
+            :root {
+                --bg-color: #ffffff;
+                --text-color: #14395c;
+                --accent-color: rgb(34, 153, 184);
+                --accent-text: #fff;
+            }
+
+            body {
+                background-color: var(--bg-color);
+                color: var(--text-color);
+                font-family: "inter", sans-serif;
+                margin: 0;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .space-mono {
+                font-family: "Space Mono", monospace;
+            }
+
+            .container {
+                max-width: 600px;
+                padding: 2rem;
+                animation: fadeIn 0.8s ease-out;
+            }
+
+            /* Logo Styling */
+            .logo {
+                max-width: 200px;
+                height: auto;
+            }
+
+            h1 {
+                font-size: 6rem;
+                font-weight: 700;
+                margin: 0.2rem;
+                letter-spacing: -0.05rem;
+                font-family: "Space Mono", monospace;
+            }
+
+            p {
+                font-size: 1.125rem;
+                line-height: 1.6;
+                color: #45556c; /* Muted text color */
+                margin-bottom: 2.5rem;
+            }
+
+            .button {
+                display: inline-block;
+                background-color: var(--accent-color);
+                color: var(--accent-text);
+                padding: 0.75rem 2rem;
+                border-radius: 200px;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 1.2rem;
+                transition:
+                    opacity 0.2s ease,
+                    transform 0.2s ease;
+            }
+
+            .button:hover {
+                opacity: 0.9;
+                transform: translateY(-0.2rem);
+            }
+
+            .footer {
+                margin-top: 3rem;
+                font-size: 0.875rem;
+                color: #45556c;
+            }
+
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(10px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img
+                src="https://hacksharon.vercel.app/_next/image?url=%2Fbrandmark.png&w=3840&q=75"
+                alt="HackSharon Logo"
+                class="logo"
+            />
+
+            <h1><span style="color: var(--accent-color)">HACK</span>SHARON</h1>
+
+            <p>
+                The
+                <strong class="space-mono">hacksharon.github.io</strong> domain
+                is no longer in use.<br />
+                Please update your bookmarks to our new official location.
+            </p>
+
+            <a href="https://hacksharon.vercel.app/" class="button"
+                >Go to <span class="space-mono">hacksharon.vercel.app</span></a
+            >
+
+            <div class="footer">
+                You will be redirected automatically in 5 seconds...
+            </div>
+        </div>
+    </body>
+</html>
